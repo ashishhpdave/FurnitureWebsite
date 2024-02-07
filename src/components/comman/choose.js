@@ -1,7 +1,7 @@
 function Choose() {
     return (
-        <div className="why-choose-section">
-            <div className="container">
+        <div className="why-choose-section mt-5">
+            <div className="container mt-5">
                 <div className="row justify-content-between">
                     <div className="col-lg-6">
                         <h2 className="section-title">Why Choose Us</h2>
