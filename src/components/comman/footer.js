@@ -96,9 +96,9 @@ const Footer = () => {
                         <div className="col-lg-6">
                             <p className="mb-2 text-center text-lg-start">Copyright &copy;
                                 {new Date().getFullYear()} All Rights Reserved. &mdash;
-                                Designed with love by
-                                <NavLink to="/">Untree.co</NavLink> Distributed By
-                                <NavLink to="/">ThemeWagon</NavLink>
+                                Designed ashishhpdave
+                                <NavLink to="/">ashishhpdave</NavLink> Distributed By
+                                <NavLink to="/">ashishhpdave</NavLink>
                                 {/* <!-- License information: https://untree.co/license/ --> */}
                             </p>
                         </div>
