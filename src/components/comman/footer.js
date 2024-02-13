@@ -97,8 +97,8 @@ const Footer = () => {
                             <p className="mb-2 text-center text-lg-start">Copyright &copy;
                                 {new Date().getFullYear()} All Rights Reserved. &mdash;
                                 Designed ashishhpdave
-                                <NavLink to="/https://github.com/ashishhpdave">ashishhpdave</NavLink> Distributed By
-                                <NavLink to="/https://github.com/ashishhpdave">ashishhpdave</NavLink>
+                                <NavLink src="/https://github.com/ashishhpdave">ashishhpdave</NavLink> Distributed By
+                                <NavLink src="/https://github.com/ashishhpdave">ashishhpdave</NavLink>
                                 {/* <!-- License information: https://untree.co/license/ --> */}
                             </p>
                         </div>
