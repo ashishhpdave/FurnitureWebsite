@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container relative">
 
                 <div className="sofa-img">
-                    <img src="images/sofa.png" alt="Image" className="img-fluid" />
+                    <img src="images/sofa.png" alt="Images" className="img-fluid"/>
                 </div>
 
                 <div className="row">
@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className="subscription-form">
                             <h3 className="d-flex align-items-center">
                                 <span className="me-1">
-                                    <img src="/images/envelope-outline.svg" alt="Image" className="img-fluid" />
+                                    <img src="/images/envelope-outline.svg" alt="Images" className="img-fluid" />
                                 </span>
                                 <span>Subscribe to Newsletter</span>
                             </h3>
@@ -30,23 +30,23 @@ const Footer = () => {
 
                 <div className="row g-5 mb-5">
                     <div className="col-lg-4">
-                        <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">Furni<span>.</span></a></div>
+                        <div className="mb-4 footer-logo-wrap"><NavLink to="#" className="footer-logo">Furni<span>.</span></NavLink></div>
                         <p className="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
                             malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
                             Pellentesque habitant</p>
 
                         <ul className="list-unstyled custom-social">
                             <li>
-                                <a href="#"> <FaFacebookF /></a>
+                                <NavLink to="#"> <FaFacebookF /></NavLink>
                             </li>
                             <li>
-                                <a href="#"> <FaXTwitter /></a>
+                                <NavLink to="#"> <FaXTwitter /></NavLink>
                             </li>
                             <li>
-                                <a href="#"> <IoLogoInstagram /></a>
+                                <NavLink to="#"> <IoLogoInstagram /></NavLink>
                             </li>
                             <li>
-                                <a href="#"> <FaLinkedinIn /></a>
+                                <NavLink to="#"> <FaLinkedinIn /></NavLink>
                             </li>
                         </ul>
                     </div>
@@ -55,35 +55,35 @@ const Footer = () => {
                         <div className="row links-wrap">
                             <div className="col-6 col-sm-6 col-md-3">
                                 <ul className="list-unstyled">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact us</a></li>
+                                    <li><NavLink to="#">About us</NavLink></li>
+                                    <li><NavLink to="#">Services</NavLink></li>
+                                    <li><NavLink to="#">Blog</NavLink></li>
+                                    <li><NavLink to="#">Contact us</NavLink></li>
                                 </ul>
                             </div>
 
                             <div className="col-6 col-sm-6 col-md-3">
                                 <ul className="list-unstyled">
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Knowledge base</a></li>
-                                    <li><a href="#">Live chat</a></li>
+                                    <li><NavLink to="#">Support</NavLink></li>
+                                    <li><NavLink to="#">Knowledge base</NavLink></li>
+                                    <li><NavLink to="#">Live chat</NavLink></li>
                                 </ul>
                             </div>
 
                             <div className="col-6 col-sm-6 col-md-3">
                                 <ul className="list-unstyled">
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Our team</a></li>
-                                    <li><a href="#">Leadership</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><NavLink to="#">Jobs</NavLink></li>
+                                    <li><NavLink to="#">Our team</NavLink></li>
+                                    <li><NavLink to="#">Leadership</NavLink></li>
+                                    <li><NavLink to="#">Privacy Policy</NavLink></li>
                                 </ul>
                             </div>
 
                             <div className="col-6 col-sm-6 col-md-3">
                                 <ul className="list-unstyled">
-                                    <li><a href="#">Nordic Chair</a></li>
-                                    <li><a href="#">Kruzo Aero</a></li>
-                                    <li><a href="#">Ergonomic Chair</a></li>
+                                    <li><NavLink to="#">Nordic Chair</NavLink></li>
+                                    <li><NavLink to="#">Kruzo Aero</NavLink></li>
+                                    <li><NavLink to="#">Ergonomic Chair</NavLink></li>
                                 </ul>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const Footer = () => {
                             <p className="mb-2 text-center text-lg-start">Copyright &copy;
                                 {new Date().getFullYear()} All Rights Reserved. &mdash;
                                 Designed ashishhpdave
-                                <NavLink src="/https://github.com/ashishhpdave">ashishhpdave</NavLink> Distributed By
+                                <NavLink src="https://github.com/ashishhpdave?tab=repositories">ashishhpdave</NavLink> Distributed By
                                 <NavLink src="/https://github.com/ashishhpdave">ashishhpdave</NavLink>
                                 {/* <!-- License information: https://untree.co/license/ --> */}
                             </p>
@@ -105,8 +105,8 @@ const Footer = () => {
 
                         <div className="col-lg-6 text-center text-lg-end">
                             <ul className="list-unstyled d-inline-flex ms-auto">
-                                <li className="me-4"><a href="/">Terms &amp; Conditions</a></li>
-                                <li><a href="/">Privacy Policy</a></li>
+                                <li className="me-4"><NavLink to="/">Terms &amp; Conditions</NavLink></li>
+                                <li><NavLink to="/">Privacy Policy</NavLink></li>
                             </ul>
                         </div>
 
